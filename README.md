@@ -10,37 +10,30 @@ The Iris dataset consists of 150 samples from three species of iris flowers (Iri
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
+## STEP 1:
+Load the Iris dataset using a suitable library.
 
-Write your own steps
+### STEP 2:
+Preprocess the data by handling missing values and normalizing features.
 
-### STEP 2: 
+### STEP 3:
+Split the dataset into training and testing sets.
 
+### STEP 4:
+Train a classification model using the training data.
 
+### STEP 5:
+Evaluate the model on the test data and calculate accuracy.
 
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
+### STEP 6:
+Display the test accuracy, confusion matrix, and classification report.
 
 
 ## PROGRAM
 
-### Name:
+### Name:BHAVATHARANI S
 
-### Register Number:
+### Register Number:212223230032
 
 ```python
 class IrisClassifier(nn.Module):
@@ -76,4 +69,4 @@ Include classification report here
 Include your sample input and output here
 
 ## RESULT
-Include your result here
+Thus, a neural network classification model was successfully developed and trained using PyTorch.
